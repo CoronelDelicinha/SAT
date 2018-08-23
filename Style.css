@@ -1,0 +1,27 @@
+.main-header{
+  text-align-last: center;
+  background-color: rgb(175, 37, 175);
+}
+
+a{
+  color: black;
+}
+
+.my-body{
+  background: rgb(58, 0, 58);
+}
+
+.my-table{
+  background: rgb(105, 1, 105);
+}
+
+.my-content{
+  padding-top: 65px;
+}
+
+.my-link{
+  color: rgb(141, 15, 141);
+  font-weight: bold;
+}
+
+
