@@ -47,21 +47,20 @@
           </form>
         </thead>
         <tbody>
-          <table class="table" border="2">
+          <table class="table table-striped" border="2">
             <thead>
               <tr>
                 <td>Work Order</td>
                 <td>Date</td>
                 <td>Customer</td>
               </tr>
-              <tr><td></td><td></td><td></td></tr>
-              <tr><td></td><td></td><td></td></tr>
-              <tr><td></td><td></td><td></td></tr>
-              <tr><td></td><td></td><td></td></tr>
-              <tr><td></td><td></td><td></td></tr>
             </thead>
             <tbody>
-
+              <tr><td></td><td></td><td></td></tr>
+              <tr><td></td><td></td><td></td></tr>
+              <tr><td></td><td></td><td></td></tr>
+              <tr><td></td><td></td><td></td></tr>
+              <tr><td></td><td></td><td></td></tr>
             </tbody>
           </table>
           <!--Pull reports from database in table format-->
