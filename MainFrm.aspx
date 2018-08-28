@@ -40,14 +40,19 @@
 			<table class="table" width="1000px" align="center" border="1">
 				<thead>
 				</thead>
-				<tbody>
-					<tr height="500px">
-						<td align="center" colspan="4"> </td>
-					</tr>
+				<tbody height="500px" align="center" colspan="4">
+					<tr>
+						<td style="color: rgb(58, 0, 58); font-size: 125px; font-family: 'Times New Roman';">Welcome to SAT</td>
+          </tr>
+          <tr>
+            <td>
+              <img src="Icon\Logo-black-blue.png" height="300px" width="300px">
+            </td>
+          </tr>
 				</tbody>
 				<tfoot>
 					<tr height="30">
-						<td colspan="4">&copy;Copyright 2018</td>
+						<td colspan="4"></td>
 					</tr>
 				</tfoot>
 			</table>

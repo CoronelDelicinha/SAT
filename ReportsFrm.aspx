@@ -48,7 +48,7 @@
         </thead>
         <tbody>
           <table class="table table-striped" border="2">
-            <thead>
+            <thead style="font-weight: bold;">
               <tr>
                 <td>Work Order</td>
                 <td>Date</td>
