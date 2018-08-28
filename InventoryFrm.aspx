@@ -1,7 +1,7 @@
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="css\bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="Style.css">
+    <link rel="stylesheet" type="text/css" href="css\bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css\Style.css">
     <title>SAT</title>
   </head>
   <body>
@@ -61,6 +61,6 @@
         </table>
       </main>
     <script src="node_modules\jquery\dist\jquery.min.js"></script>
-    <script src="js\bootstrap.min.js"></script>
+    <script src="js\bootstrap.js"></script>
   </body>
 </html>

@@ -2,7 +2,7 @@
 	<Head>
 		<title>SAT</title>
 		<link rel="stylesheet" type="text/css" href="css\bootstrap.css">
-		<link rel="stylesheet" type="text/css" href="Style.css">
+		<link rel="stylesheet" type="text/css" href="css\Style.css">
 	</Head>
 	<body>
 		<form method="post" action="MainFrm.aspx">

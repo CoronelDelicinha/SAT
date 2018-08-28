@@ -1,7 +1,7 @@
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="css\bootstrap.css">
-		<link rel="stylesheet" type="text/css" href="Style.css">
+		<link rel="stylesheet" type="text/css" href="css\Style.css">
 		<link href="Icon\Logo-black-blue.png" rel="icon" type="image/png"/>
     <title>SAT</title>
   </head>
