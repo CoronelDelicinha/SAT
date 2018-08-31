@@ -8,7 +8,9 @@ namespace AulaSplash
 {
     class Material
     {
-        string name, description;
-        int quantity, id;
+        string name { get; set; }
+        string description { get; set; }
+        int quantity { get; set; }
+        int id { get; set; }
     }
 }

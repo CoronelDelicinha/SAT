@@ -10,9 +10,9 @@ namespace AulaSplash
     {
         private string Id { get; set; }
         private string Date { get; set; }
-        private string Observation{ get; set; }
+        private string Observation { get; set; }
         private double Stars { get; set; }
-        private Employee Empl;
-        private Customer Cust;
+        private Employee Empl {get;set;}
+        private Customer Cust {get;set;}
     }
 }

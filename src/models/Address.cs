@@ -8,8 +8,11 @@ namespace AulaSplash
 {
     class Address
     {
-        string addressLine1, addressLine2, cep, district;
-        int number, id;
-    
+        private string addressLine1 {get;set;}
+        private string addressLine2 {get;set;}
+        private string cep {get;set;}
+        private string district {get;set;}
+        private int number {get;set;}
+        private int id {get;set;}
     }
 }

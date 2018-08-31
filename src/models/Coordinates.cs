@@ -8,7 +8,8 @@ namespace AulaSplash
 {
     class Coordinates
     {
-        string latitude, longitude;
-        int id;
+        private string latitude {get;set;}
+        private string longitude {get;set;}
+        private int id {get;set;}
     }
 }

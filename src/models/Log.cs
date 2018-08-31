@@ -10,6 +10,6 @@ namespace AulaSplash
     {
         private string Date { get; set; }
         private int Operation { get; set; }
-        private Employee Empl;
+        private Employee Empl { get; set; }
     }
 }

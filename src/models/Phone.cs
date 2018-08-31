@@ -8,7 +8,8 @@ namespace AulaSplash
 {
     class Phone
     {
-        string ddd, number;
-        int id;
+        private string ddd { get; set; }
+        private string number { get; set; }
+        private int id { get; set; }
     }
 }

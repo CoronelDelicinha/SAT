@@ -10,7 +10,7 @@ namespace AulaSplash
     {
         private int Id { get; set; }
         private int Status { get; set; }
-        private Location CurrentLocation;
-        private Inventory Inv;
+        private Location CurrentLocation {get;set;}
+        private Inventory Inv {get;set;}
     }
 }
