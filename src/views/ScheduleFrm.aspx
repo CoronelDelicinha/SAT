@@ -51,11 +51,13 @@
               </tr>
             </thead>
             <tbody>
-              <tr><td></td><td></td><td></td><td></td></tr>
-              <tr><td></td><td></td><td></td><td></td></tr>
-              <tr><td></td><td></td><td></td><td></td></tr>
-              <tr><td></td><td></td><td></td><td></td></tr>
-              <tr><td></td><td></td><td></td><td></td></tr>
+              <form method="post" action="">
+                <tr><td></td><td></td><td></td><td width="120px"><input class="btn btn-lg btn-primary btn-block" type="submit" name="submitBtn" value="View"></td></tr>
+                <tr><td></td><td></td><td></td><td width="120px"><input class="btn btn-lg btn-primary btn-block" type="submit" name="submitBtn" value="View"></td></tr>
+                <tr><td></td><td></td><td></td><td width="120px"><input class="btn btn-lg btn-primary btn-block" type="submit" name="submitBtn" value="View"></td></tr>
+                <tr><td></td><td></td><td></td><td width="120px"><input class="btn btn-lg btn-primary btn-block" type="submit" name="submitBtn" value="View"></td></tr>
+                <tr><td></td><td></td><td></td><td width="120px"><input class="btn btn-lg btn-primary btn-block" type="submit" name="submitBtn" value="View"></td></tr>
+              </form>
             </tbody>
           </table>
             <!--Pull reports from database in table format-->
