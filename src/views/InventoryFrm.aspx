@@ -37,8 +37,15 @@
       </div>
     </nav>
     <main class="my-content">
-        <table align="center" style="margin-top:200px;">
+        <table align="center" style="margin-top:114px;">
           <thead border="0">
+            <form method="post" action="">
+              <tr align="center" height="70">
+                <td>
+                  <input class="btn btn-lg btn-primary" height="50" type="submit" name="requestMaterialBtn" value="Request" style="vertical-align:top">
+                </td>
+              </tr>
+            </form>
           </thead>
           <tbody>
             <table class="table table-striped" border="2" align="center" style="width: 80%;">
@@ -50,11 +57,11 @@
                 </tr>
               </thead>
               <tbody>
-                <tr><td></td><td></td><td></td></tr>
-                <tr><td></td><td></td><td></td></tr>
-                <tr><td></td><td></td><td></td></tr>
-                <tr><td></td><td></td><td></td></tr>
-                <tr><td></td><td></td><td></td></tr>
+                <tr><td>Yellow cable</td><td>4</td><td><!--Increse/Decrease Buttons (https://codepen.io/mtbroomell/pen/yNwwdv)--></td></tr>
+                <tr><td>Router type 2</td><td>7</td><td></td></tr>
+                <tr><td>USB hub</td><td>3</td><td></td></tr>
+                <tr><td>Router type 4</td><td>2</td><td></td></tr>
+                <tr><td>Blue tape</td><td>42</td><td></td></tr>
               </tbody>
             </table>
             <!--Pull reports from database in table format-->

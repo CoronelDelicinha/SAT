@@ -42,7 +42,7 @@
           <form method="post" action="">
             <tr align="center" height="70">
               <td>
-               <input class="btn btn-lg btn-primary" type="submit" name="addNewReportBtn" value="Add new" style="vertical-align:top">
+               <input class="btn btn-lg btn-primary" height="50" type="submit" name="addNewReportBtn" value="Add new" style="vertical-align:top">
               </td>
             </tr>
           </form>
@@ -54,16 +54,16 @@
                 <td>Work Order</td>
                 <td>Date</td>
                 <td>Customer</td>
-                <td>View</td>
+                <td>Details</td>
               </tr>
             </thead>
             <tbody>
               <form method="post" action="">
-                <tr><td></td><td></td><td></td><td width="120px"><input class="btn btn-lg btn-primary btn-block" type="submit" name="submitBtn" value="View"></td></tr>
-                <tr><td></td><td></td><td></td><td width="120px"><input class="btn btn-lg btn-primary btn-block" type="submit" name="submitBtn" value="View"></td></tr>
-                <tr><td></td><td></td><td></td><td width="120px"><input class="btn btn-lg btn-primary btn-block" type="submit" name="submitBtn" value="View"></td></tr>
-                <tr><td></td><td></td><td></td><td width="120px"><input class="btn btn-lg btn-primary btn-block" type="submit" name="submitBtn" value="View"></td></tr>
-                <tr><td></td><td></td><td></td><td width="120px"><input class="btn btn-lg btn-primary btn-block" type="submit" name="submitBtn" value="View"></td></tr>
+                <tr><td>126432</td><td>09/04/2018 10:30</td><td>Lucas Medeiros</td><td width="120px"><input class="btn btn-primary btn-block" type="submit" name="viewBtn" value="View"></td></tr>
+                <tr><td>126433</td><td>09/04/2018 10:30</td><td>Felipe Ramos</td><td width="120px"><input class="btn btn-primary btn-block" type="submit" name="viewBtn" value="View"></td></tr>
+                <tr><td>126434</td><td>09/04/2018 10:30</td><td>Gabriel Silva</td><td width="120px"><input class="btn btn-primary btn-block" type="submit" name="viewBtn" value="View"></td></tr>
+                <tr><td>126435</td><td>09/04/2018 10:30</td><td>Carlos Alberto</td><td width="120px"><input class="btn btn-primary btn-block" type="submit" name="viewBtn" value="View"></td></tr>
+                <tr><td>126436</td><td>09/04/2018 10:30</td><td>Maria Antonia</td><td width="120px"><input class="btn btn-primary btn-block" type="submit" name="viewBtn" value="View"></td></tr>
               </form>
             </tbody>
           </table>
