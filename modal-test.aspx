@@ -101,7 +101,7 @@
                 <td>13131-131</td>
               </tr>
               <tr>
-                <td><h5>Customer observations: </h5></td>
+                <td><h5>Notes: </h5></td>
                 <td>CocoCocoCocoCocoCocoCocoCoco</td>
               </tr>
             </table>
