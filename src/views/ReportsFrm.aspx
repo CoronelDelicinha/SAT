@@ -84,26 +84,34 @@
                 <tr>
                   <td><h5>Customer:</h5></td>
                   <td>Coco</td>
-                </tr>
-                <tr>
                   <td><h5>CPF:</h5></td>
                   <td>444.444.444-44</td>
+                </tr>
+                <tr>
+                  <td><h5>Employee:</h5></td>
+                  <td colspan="3">Coco</td>
                 </tr>
                 <tr>
                   <td><h5>Date: </h5></td>
                   <td>09/04/2018 10:30</td>
                 </tr>
                 <tr>
-                  <td><h5>Address: </h5></td>
-                  <td>CocoCocoCoco</td>
+                  <td><h5>Entry: </h5></td>
+                  <td>10:30</td>
+                  <td><h5>Exit: </h5></td>
+                  <td>11:45</td>
                 </tr>
                 <tr>
-                  <td><h5>CEP: </h5></td>
-                  <td>13131-131</td>
+                  <td><h5>Customer Notes: </h5></td>
+                  <td colspan="3">CocoCocoCocoCocoCocoCocoCoco</td>
                 </tr>
                 <tr>
-                  <td><h5>Notes: </h5></td>
-                  <td>CocoCocoCocoCocoCocoCocoCoco</td>
+                  <td><h5>Employee Notes: </h5></td>
+                  <td colspan="3">CocoCocoCocoCocoCocoCocoCoco</td>
+                </tr>
+                <tr>
+                  <td><h5>Used equipment: </h5></td>
+                  <td colspan="3">CocoCocoCocoCocoCocoCocoCoco</td>
                 </tr>
               </table>
             </div>

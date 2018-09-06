@@ -48,20 +48,19 @@
           </form>
         </thead>
         <tbody>
-          <table class="table table-striped" border="2" align="center" style="width: 80%;">
+          <table class="table table-striped" border="2" align="center" style="width: 600px;">
             <thead style="font-weight: bold;">
               <tr>
                 <td>Item</td>
-                <td>Quantity</td>
-                <td>Increase/Decrease</td>
+                <td width="25%">Quantity</td>
               </tr>
             </thead>
             <tbody>
-              <tr><td>Yellow cable</td><td>4</td><td><!--Increase/Decrease Buttons (https://codepen.io/mtbroomell/pen/yNwwdv)--></td></tr>
-              <tr><td>Router type 2</td><td>7</td><td></td></tr>
-              <tr><td>USB hub</td><td>3</td><td></td></tr>
-              <tr><td>Router type 4</td><td>2</td><td></td></tr>
-              <tr><td>Blue tape</td><td>42</td><td></td></tr>
+              <tr><td>Yellow cable</td><td><!--Increase/Decrease Buttons (https://codepen.io/mtbroomell/pen/yNwwdv)--></td></tr>
+              <tr><td>Router type 2</td><td></td></tr>
+              <tr><td>USB hub</td><td></td></tr>
+              <tr><td>Router type 4</td><td></td></tr>
+              <tr><td>Blue tape</td><td></td></tr>
             </tbody>
           </table>
         </tbody>
@@ -81,16 +80,16 @@
                 <thead style="font-weight: bold;">
                   <tr>
                     <td>Item</td>
-                    <td>Quantity</td>
-                    <td>Increase/Decrease</td>
+                    <td width="25%">Quantity</td>
+                    <td width="25%">Request</td>
                   </tr>
                 </thead>
                 <tbody>
-                  <tr><td>Yellow cable</td><td>4</td><td><!--Increase/Decrease Buttons (https://codepen.io/mtbroomell/pen/yNwwdv)--></td></tr>
-                  <tr><td>Router type 2</td><td>7</td><td></td></tr>
-                  <tr><td>USB hub</td><td>3</td><td></td></tr>
-                  <tr><td>Router type 4</td><td>2</td><td></td></tr>
-                  <tr><td>Blue tape</td><td>42</td><td></td></tr>
+                  <tr><td>Yellow cable</td><td></td><td><!--Increase/Decrease Buttons (https://codepen.io/mtbroomell/pen/yNwwdv)--></td></tr>
+                  <tr><td>Router type 2</td><td></td><td></td></tr>
+                  <tr><td>USB hub</td><td></td><td></td></tr>
+                  <tr><td>Router type 4</td><td></td><td></td></tr>
+                  <tr><td>Blue tape</td><td></td><td></td></tr>
                 </tbody>
               </table>
             </div>
