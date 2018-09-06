@@ -42,7 +42,7 @@
           <form method="post" action="">
             <tr align="center" height="70">
               <td>
-               <input class="btn btn-lg btn-primary" height="50" type="submit" name="addNewReportBtn" value="Add new" style="vertical-align:top">
+               <input class="btn btn-lg btn-primary" height="50" type="button" data-toggle="modal" data-target="#Modal-new" data-backdrop="static" data-keyboard="false" name="addNewReportBtn" value="Add new" style="vertical-align:top">
               </td>
             </tr>
           </form>
@@ -59,18 +59,71 @@
             </thead>
             <tbody>
                   <!--<%=FillReportsTable()%>-->
-                  <tr><td>126432</td><td>09/04/2018 10:30</td><td>Lucas Medeiros</td><td width="120px"><input class="btn btn-primary btn-block" type="button" data-toggle="modal" data-target="#Modal" name="viewBtn" value="View"></td></tr>
-                  <tr><td>126433</td><td>09/04/2018 10:30</td><td>Felipe Ramos</td><td width="120px"><input class="btn btn-primary btn-block" type="button" data-toggle="modal" data-target="#Modal" name="viewBtn" value="View"></td></tr>
-                  <tr><td>126434</td><td>09/04/2018 10:30</td><td>Gabriel Silva</td><td width="120px"><input class="btn btn-primary btn-block" type="button" data-toggle="modal" data-target="#Modal" name="viewBtn" value="View"></td></tr>
-                  <tr><td>126435</td><td>09/04/2018 10:30</td><td>Carlos Alberto</td><td width="120px"><input class="btn btn-primary btn-block" type="button" data-toggle="modal" data-target="#Modal" name="viewBtn" value="View"></td></tr>
-                  <tr><td>126436</td><td>09/04/2018 10:30</td><td>Maria Antonia</td><td width="120px"><input class="btn btn-primary btn-block" type="button" data-toggle="modal" data-target="#Modal" name="viewBtn" value="View"></td></tr>
+                  <tr><td>126432</td><td>09/04/2018 10:30</td><td>Lucas Medeiros</td><td width="120px"><input class="btn btn-primary btn-block" type="button" data-toggle="modal" data-target="#Modal-view" name="viewBtn" value="View"></td></tr>
+                  <tr><td>126433</td><td>09/04/2018 10:30</td><td>Felipe Ramos</td><td width="120px"><input class="btn btn-primary btn-block" type="button" data-toggle="modal" data-target="#Modal-view" name="viewBtn" value="View"></td></tr>
+                  <tr><td>126434</td><td>09/04/2018 10:30</td><td>Gabriel Silva</td><td width="120px"><input class="btn btn-primary btn-block" type="button" data-toggle="modal" data-target="#Modal-view" name="viewBtn" value="View"></td></tr>
+                  <tr><td>126435</td><td>09/04/2018 10:30</td><td>Carlos Alberto</td><td width="120px"><input class="btn btn-primary btn-block" type="button" data-toggle="modal" data-target="#Modal-view" name="viewBtn" value="View"></td></tr>
+                  <tr><td>126436</td><td>09/04/2018 10:30</td><td>Maria Antonia</td><td width="120px"><input class="btn btn-primary btn-block" type="button" data-toggle="modal" data-target="#Modal-view" name="viewBtn" value="View"></td></tr>
             </tbody>
           </table>
           <!--Pull reports from database in table format-->
         </tbody>
       </table>
     </main>
-    <div class="modal fade bd-example-modal-lg" id="Modal" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+    <div class="modal fade bd-example-modal-lg" id="Modal-view" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="ModalLabel">Work Order ######</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <table class="table" border="0">
+                <form>
+                    <tr>
+                        <td><h5>CPF:</h5></td>
+                        <td>444.444.444-44</td>
+                        <td><h5>Customer:</h5></td>
+                        <td>Coco</td>
+                      </tr>
+                      <tr>
+                        <td><h5>Employee:</h5></td>
+                        <td colspan="3">Coco</td>
+                      </tr>
+                      <tr>
+                        <td><h5>Date: </h5></td>
+                        <td>09/04/2018 10:30</td>
+                      </tr>
+                      <tr>
+                        <td><h5>Entry: </h5></td>
+                        <td>10:30</td>
+                        <td><h5>Exit: </h5></td>
+                        <td>11:45</td>
+                      </tr>
+                      <tr>
+                        <td><h5>Customer Notes: </h5></td>
+                        <td colspan="3">CocoCocoCocoCocoCocoCocoCoco</td>
+                      </tr>
+                      <tr>
+                        <td><h5>Employee Notes: </h5></td>
+                        <td colspan="3">CocoCocoCocoCocoCocoCocoCoco</td>
+                      </tr>
+                      <tr>
+                        <td><h5>Used equipment: </h5></td>
+                        <td colspan="3">CocoCocoCocoCocoCocoCocoCoco</td>
+                      </tr>
+                </form>
+              </table>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="modal fade bd-example-modal-lg" id="Modal-new" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg" role="document">
           <div class="modal-content">
             <div class="modal-header">
@@ -82,10 +135,12 @@
             <div class="modal-body">
               <table class="table" border="0">
                 <tr>
+                  <td><h5>CPF:</h5></td>
+                  <td><input class="form-control" width="150px"type="text" name="cpfTxtBox"></td>
+                </tr>
+                <tr>
                   <td><h5>Customer:</h5></td>
                   <td>Coco</td>
-                  <td><h5>CPF:</h5></td>
-                  <td>444.444.444-44</td>
                 </tr>
                 <tr>
                   <td><h5>Employee:</h5></td>
@@ -93,30 +148,26 @@
                 </tr>
                 <tr>
                   <td><h5>Date: </h5></td>
-                  <td>09/04/2018 10:30</td>
+                  <td><input class="form-control" type="date" name="dateTimeTxtBox"></td>
+                  <td><input class="form-control" type="time" name="dateTimeTxtBox"></td>
                 </tr>
                 <tr>
                   <td><h5>Entry: </h5></td>
-                  <td>10:30</td>
+                  <td><input class="form-control" type="time" name="entryTimeTxtBox"></td>
                   <td><h5>Exit: </h5></td>
-                  <td>11:45</td>
+                  <td><input class="form-control" type="time" name="exitTimeTxtBox"></td>
                 </tr>
-                <tr>
-                  <td><h5>Customer Notes: </h5></td>
-                  <td colspan="3">CocoCocoCocoCocoCocoCocoCoco</td>
-                </tr>
-                <tr>
-                  <td><h5>Employee Notes: </h5></td>
-                  <td colspan="3">CocoCocoCocoCocoCocoCocoCoco</td>
-                </tr>
-                <tr>
-                  <td><h5>Used equipment: </h5></td>
-                  <td colspan="3">CocoCocoCocoCocoCocoCocoCoco</td>
-                </tr>
+                <tr><td colspan="4"><h5>Customer Notes: </h5></td></tr>
+                <tr><td colspan="4">CocoCocoCocoCocoCocoCocoCoco</td></tr>
+                <tr><td colspan="4"><h5>Employee Notes: </h5></td></tr>
+                <tr><td colspan="4"><input class="form-control" type="text" name="notesTxtBox"></td></tr>
+                <tr><td colspan="4"><h5>Used equipment: </h5></td></tr>
+                <tr><td colspan="4"><input class="form-control" type="text" name="equipTxtBox"></td></tr>
               </table>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Save Report</button>
+              <button type="button" class="btn btn-dark" data-dismiss="modal">Cancel</button>
             </div>
           </div>
         </div>

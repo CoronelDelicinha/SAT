@@ -42,7 +42,7 @@
           <form method="post" action="">
             <tr align="center" height="70">
               <td>
-                <input class="btn btn-lg btn-primary" height="50" type="button" data-toggle="modal" data-target="#Modal" name="requestMaterialBtn" value="Request" style="vertical-align:top">
+                <input class="btn btn-lg btn-primary" height="50" type="button" data-toggle="modal" data-target="#Modal" data-backdrop="static" data-keyboard="false" name="requestMaterialBtn" value="Request" style="vertical-align:top">
               </td>
             </tr>
           </form>
@@ -95,7 +95,7 @@
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-primary" data-dismiss="modal">Request</button>
-              <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-dark" data-dismiss="modal">Cancel</button>
             </div>
           </div>
         </div>
