@@ -51,19 +51,61 @@
               </tr>
             </thead>
             <tbody>
-                <form method="post" action="">
-                  <tr><td>126432</td><td>09/04/2018 10:30</td><td>Lucas Medeiros</td><td width="120px"><input class="btn btn-primary btn-block" type="submit" name="viewBtn" value="View"></td></tr>
-                  <tr><td>126433</td><td>09/04/2018 10:30</td><td>Felipe Ramos</td><td width="120px"><input class="btn btn-primary btn-block" type="submit" name="viewBtn" value="View"></td></tr>
-                  <tr><td>126434</td><td>09/04/2018 10:30</td><td>Gabriel Silva</td><td width="120px"><input class="btn btn-primary btn-block" type="submit" name="viewBtn" value="View"></td></tr>
-                  <tr><td>126435</td><td>09/04/2018 10:30</td><td>Carlos Alberto</td><td width="120px"><input class="btn btn-primary btn-block" type="submit" name="viewBtn" value="View"></td></tr>
-                  <tr><td>126436</td><td>09/04/2018 10:30</td><td>Maria Antonia</td><td width="120px"><input class="btn btn-primary btn-block" type="submit" name="viewBtn" value="View"></td></tr>
-                </form>
+              <tr><td>126432</td><td>09/04/2018 10:30</td><td>Lucas Medeiros</td><td width="120px"><input class="btn btn-primary btn-block" type="button" data-toggle="modal" data-target="#Modal" name="viewBtn" value="View"></td></tr>
+              <tr><td>126433</td><td>09/04/2018 10:30</td><td>Felipe Ramos</td><td width="120px"><input class="btn btn-primary btn-block" type="button" data-toggle="modal" data-target="#Modal" name="viewBtn" value="View"></td></tr>
+              <tr><td>126434</td><td>09/04/2018 10:30</td><td>Gabriel Silva</td><td width="120px"><input class="btn btn-primary btn-block" type="button" data-toggle="modal" data-target="#Modal" name="viewBtn" value="View"></td></tr>
+              <tr><td>126435</td><td>09/04/2018 10:30</td><td>Carlos Alberto</td><td width="120px"><input class="btn btn-primary btn-block" type="button" data-toggle="modal" data-target="#Modal" name="viewBtn" value="View"></td></tr>
+              <tr><td>126436</td><td>09/04/2018 10:30</td><td>Maria Antonia</td><td width="120px"><input class="btn btn-primary btn-block" type="button" data-toggle="modal" data-target="#Modal" name="viewBtn" value="View"></td></tr>
               </tbody>
           </table>
-            <!--Pull reports from database in table format-->
+            <!--Pull reports from database in table format
+            (https://stackoverflow.com/questions/19602917/how-to-display-data-in-html-table-in-asp-net ?)-->
         </tbody>
       </table>
     </main>
+    <div class="modal fade bd-example-modal-lg" id="Modal" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="ModalLabel">Work Order ######</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <table class="table" border="0">
+                <tr>
+                  <td><h5>Customer:</h5></td>
+                  <td>Coco</td>
+                </tr>
+                <tr>
+                  <td><h5>CPF:</h5></td>
+                  <td>444.444.444-44</td>
+                </tr>
+                <tr>
+                  <td><h5>Date: </h5></td>
+                  <td>09/04/2018 10:30</td>
+                </tr>
+                <tr>
+                  <td><h5>Address: </h5></td>
+                  <td>CocoCocoCoco</td>
+                </tr>
+                <tr>
+                  <td><h5>CEP: </h5></td>
+                  <td>13131-131</td>
+                </tr>
+                <tr>
+                  <td><h5>Notes: </h5></td>
+                  <td>CocoCocoCocoCocoCocoCocoCoco</td>
+                </tr>
+              </table>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+    </div>
     <script src="..\..\node_modules\jquery\dist\jquery.min.js"></script>
     <script src="..\..\js\bootstrap.js"></script>
   </body>

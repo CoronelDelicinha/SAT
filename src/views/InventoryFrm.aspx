@@ -37,37 +37,70 @@
       </div>
     </nav>
     <main class="my-content">
-        <table align="center" style="margin-top:114px;">
-          <thead border="0">
-            <form method="post" action="">
-              <tr align="center" height="70">
-                <td>
-                  <input class="btn btn-lg btn-primary" height="50" type="submit" name="requestMaterialBtn" value="Request" style="vertical-align:top">
-                </td>
+      <table align="center" style="margin-top:114px;">
+        <thead border="0">
+          <form method="post" action="">
+            <tr align="center" height="70">
+              <td>
+                <input class="btn btn-lg btn-primary" height="50" type="button" data-toggle="modal" data-target="#Modal" name="requestMaterialBtn" value="Request" style="vertical-align:top">
+              </td>
+            </tr>
+          </form>
+        </thead>
+        <tbody>
+          <table class="table table-striped" border="2" align="center" style="width: 80%;">
+            <thead style="font-weight: bold;">
+              <tr>
+                <td>Item</td>
+                <td>Quantity</td>
+                <td>Increase/Decrease</td>
               </tr>
-            </form>
-          </thead>
-          <tbody>
-            <table class="table table-striped" border="2" align="center" style="width: 80%;">
-              <thead style="font-weight: bold;">
-                <tr>
-                  <td>Klaatu</td>
-                  <td>Barada</td>
-                  <td>Nikto</td>
-                </tr>
-              </thead>
-              <tbody>
-                <tr><td>Yellow cable</td><td>4</td><td><!--Increse/Decrease Buttons (https://codepen.io/mtbroomell/pen/yNwwdv)--></td></tr>
-                <tr><td>Router type 2</td><td>7</td><td></td></tr>
-                <tr><td>USB hub</td><td>3</td><td></td></tr>
-                <tr><td>Router type 4</td><td>2</td><td></td></tr>
-                <tr><td>Blue tape</td><td>42</td><td></td></tr>
-              </tbody>
-            </table>
-            <!--Pull reports from database in table format-->
-          </tbody>
-        </table>
-      </main>
+            </thead>
+            <tbody>
+              <tr><td>Yellow cable</td><td>4</td><td><!--Increase/Decrease Buttons (https://codepen.io/mtbroomell/pen/yNwwdv)--></td></tr>
+              <tr><td>Router type 2</td><td>7</td><td></td></tr>
+              <tr><td>USB hub</td><td>3</td><td></td></tr>
+              <tr><td>Router type 4</td><td>2</td><td></td></tr>
+              <tr><td>Blue tape</td><td>42</td><td></td></tr>
+            </tbody>
+          </table>
+        </tbody>
+      </table>
+    </main>
+    <div class="modal fade bd-example-modal-lg" id="Modal" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="ModalLabel">Inventory</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <table class="table table-striped" border="2" align="center" style="width: 80%;">
+                <thead style="font-weight: bold;">
+                  <tr>
+                    <td>Item</td>
+                    <td>Quantity</td>
+                    <td>Increase/Decrease</td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr><td>Yellow cable</td><td>4</td><td><!--Increase/Decrease Buttons (https://codepen.io/mtbroomell/pen/yNwwdv)--></td></tr>
+                  <tr><td>Router type 2</td><td>7</td><td></td></tr>
+                  <tr><td>USB hub</td><td>3</td><td></td></tr>
+                  <tr><td>Router type 4</td><td>2</td><td></td></tr>
+                  <tr><td>Blue tape</td><td>42</td><td></td></tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Request</button>
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
     <script src="..\..\node_modules\jquery\dist\jquery.min.js"></script>
     <script src="..\..\js\bootstrap.js"></script>
   </body>
