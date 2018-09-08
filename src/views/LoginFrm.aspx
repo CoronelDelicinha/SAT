@@ -26,6 +26,13 @@
 					</tr>
 					<tr align="center">
 						<td>
+							<label>
+								<input type="checkbox" value="remember-me"> Remember me
+							</label>
+						</td>
+					</tr>
+					<tr align="center">
+						<td>
 							<input class="btn btn-lg btn-primary btn-block" type="submit" name="submitBtn" value="Login">
 						</td>
 					</tr>
